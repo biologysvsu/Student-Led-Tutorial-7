@@ -70,6 +70,24 @@ prokka --outdir prokka_output --prefix bradyrhizobium --genus Bradyrhizobium --s
 - bradyrhizobium.ffn: Predicted coding sequences (CDS).
 - bradyrhizobium.tbl: Table file for GenBank submission.
 
+### **Step 4: Validate Annotations**
+1. Add the .faa file to your repository
+```
+git add bradyrhizobium.faa
+```
+```
+git commit -m "File for KEGG"
+```
+```
+git push origin main
+```
+2. Check for functional annotations:
+- Identify key genes, such as those involved in nitrogen fixation (e.g., nif genes).
+Use KEGG Mapper to map annotated genes to metabolic pathways:
+- Upload bradyrhizobium.faa to KEGG Blast Koala (https://www.kegg.jp/blastkoala/).
+- Send results to your SVSU email.
+- Enter blastkopala generated KO numbers into the KEGG MAPPER- RECONSTRUCT (https://www.genome.jp/kegg/mapper/reconstruct.html)
+
 ### **Step 4: Visualization Using Artemis**
 1. Install Artemis (or any other genome browser). The IGV viewer is a good online alternative (https://igv.org/app/)
 ``` bash
@@ -81,12 +99,6 @@ tar zxf artemis-unix-release-18.0.0.tar.gz
 artemis/art prokka_output/bradyrhizobium.gff
 ```
 - Explore coding regions, functional annotations, and structural features.
-### **Step 5: Validate Annotations**
-1. Check for functional annotations:
-- Identify key genes, such as those involved in nitrogen fixation (e.g., nif genes).
-- Use KEGG Mapper to map annotated genes to metabolic pathways:
-- Upload bradyrhizobium.faa to KEGG Blast Koala (https://www.kegg.jp/blastkoala/).
-- Enter blastkopala generated KO numbers into the KEGG MAPPER- RECONSTRUCT (https://www.genome.jp/kegg/mapper/reconstruct.html)
 
 ### **Step 6: Results Discussion**
 
