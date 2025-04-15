@@ -65,22 +65,14 @@ prokka --outdir prokka_output --prefix bradyrhizobium --genus Bradyrhizobium --s
 - --prefix: Prefix for output filenames.
 - --genus and --species: Specify the organism's name.
 2. Key output files in prokka_output/:
-- bradyrhizobium.gff: General Feature Format file with annotations.
+- bradyrhizobium.gff: General feature format file with annotations.
+- bradyrhizobium.gbz: Compressed binary format.
 - bradyrhizobium.faa: Predicted proteins.
-- bradyrhizobium.ffn: Predicted coding sequences (CDS).
-- bradyrhizobium.tbl: Table file for GenBank submission.
+3. Push .faa, .gff, .gbz files to GitHub
+
+
 
 ### **Step 4: Validate Annotations**
-1. Add the .faa file to your repository
-```
-git add bradyrhizobium.faa
-```
-```
-git commit -m "File for KEGG"
-```
-```
-git push origin main
-```
 2. Check for functional annotations:
 - Identify key genes, such as those involved in nitrogen fixation (e.g., nif genes).
 Use KEGG Mapper to map annotated genes to metabolic pathways:
