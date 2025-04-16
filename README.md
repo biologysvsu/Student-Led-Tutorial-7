@@ -84,7 +84,7 @@ Use KEGG Mapper to map annotated genes to metabolic pathways:
 - Tracks --> Local File and upload .gff file (see names of genes)
 - Explore coding regions, functional annotations, and structural features.
 
-- Search bar: nif, rpoN, zur, nhaD, tyrs
+2. Search bar: nif, rpoN, zur, nhaD, tyrs. etc. 
 
    - nif or nifA (.gff):
         - product:   Nif-specific regulatory protein
@@ -104,7 +104,7 @@ Use KEGG Mapper to map annotated genes to metabolic pathways:
 
 - Hypothetical Proteins
       - Hypothetical proteins are genes that were predicted by annotation software (like Prokka), but they don’t match any known proteins in reference databases. We could get the gene's amino acid sequence and BLAST it (blastp) to see if newer databases had more information. 
-            - EX: Location   NC_004463.1:2,248,811-2,249,869
+           - EX: Location   NC_004463.1:2,248,811-2,249,869
 
 ### **Step 6: Results Discussion**
 
