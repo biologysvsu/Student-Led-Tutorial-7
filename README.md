@@ -84,7 +84,7 @@ Use KEGG Mapper to map annotated genes to metabolic pathways:
 - Tracks --> Local File and upload .gff file (see names of genes)
 - Explore coding regions, functional annotations, and structural features.
 
-- Search bar: nif, rpoN, zur
+- Search bar: nif, rpoN, zur, nhaD, tyrs
 
    - nif or nifA (.gff):
         - product:   Nif-specific regulatory protein
