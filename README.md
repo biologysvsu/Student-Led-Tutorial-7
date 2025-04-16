@@ -80,7 +80,8 @@ Use KEGG Mapper to map annotated genes to metabolic pathways:
 
 ### **Step 5: Visualization Using IGV**
 1. Navigate to IGV (https://igv.org/app/)
-- Genome --> Local File and upload .gff file
+- Genome --> Local File and upload .gbz file
+- Tracks --> Local File and upload .gff file
 - Explore coding regions, functional annotations, and structural features.
 
 ### **Step 6: Results Discussion**
