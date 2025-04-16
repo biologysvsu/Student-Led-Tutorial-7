@@ -81,8 +81,26 @@ Use KEGG Mapper to map annotated genes to metabolic pathways:
 ### **Step 5: Visualization Using IGV**
 1. Navigate to IGV (https://igv.org/app/)
 - Genome --> Local File and upload .gbz file
-- Tracks --> Local File and upload .gff file
+- Tracks --> Local File and upload .gff file (see names of genes)
 - Explore coding regions, functional annotations, and structural features.
+
+Search bar: nif, rpoN, zur
+
+- nif or nifA (.gff): product:   Nif-specific regulatory protein
+      Location   NC_004463.1:2,196,261-2,198,009
+- zur: product:   Zinc uptake regulation protein
+      Location   NC_004463.1:1,021,394-1,021,888
+- rpoN: product:   RNA polymerase sigma-54 factor 2
+      Location   NC_004463.1:771,986-773,599
+- nhaD: product:   Na(+)/H(+) antiporter NhaD
+      Location   NC_004463.1:4,147,856-4,149,133
+- tyrs: product:   Tyrosine--tRNA ligase
+      Location   NC_004463.1:4,787,647-4,788,900
+
+- Hypothetical Proteins
+      Hypothetical proteins are genes that were predicted by annotation software (like Prokka), but they don’t match any known proteins in reference databases.
+      We could get the gene's amino acid sequence and BLAST it (blastp) to see if newer databases had more information. 
+            EX: Location   NC_004463.1:2,248,811-2,249,869
 
 ### **Step 6: Results Discussion**
 
