@@ -17,11 +17,9 @@ Students will:
 1. **Prokka**: Rapid prokaryotic genome annotation.  
    - [Prokka GitHub](https://github.com/tseemann/prokka)  
    - [Prokka Documentation](https://github.com/tseemann/prokka#usage)  
-2. **Artemis**: Genome browser for manual curation.  
-   - [Artemis Download](https://www.sanger.ac.uk/tool/artemis/)  
-3. **tbl2asn**: For GenBank submission formatting.  
+2. **tbl2asn**: For GenBank submission formatting.  
    - [tbl2asn Documentation](https://www.ncbi.nlm.nih.gov/genbank/tbl2asn2/)  
-4. **KEGG Mapper**: Pathway visualization.  
+3. **KEGG Mapper**: Pathway visualization.  
    - [KEGG Mapper](https://www.genome.jp/kegg/mapper.html)  
 
 ---
