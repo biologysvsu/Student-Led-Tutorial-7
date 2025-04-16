@@ -67,8 +67,21 @@ prokka --outdir prokka_output --prefix bradyrhizobium --genus Bradyrhizobium --s
 - bradyrhizobium.gbz: Compressed binary format.
 - bradyrhizobium.faa: Predicted proteins.
 3. Push .faa, .gff, .gbz files to GitHub
-
-
+```
+git add bradyrhizobium.gff
+git commit m "General Format File"
+git push
+```
+```
+git add bradyrhizobium.gbz
+git commit -m "Compressed Binary File"
+git push
+```
+```
+git add bradyrhizobium.faa
+git commit -m "Predicted Proteins File"
+git push
+```
 
 ### **Step 4: Validate Annotations**
 2. Check for functional annotations:
