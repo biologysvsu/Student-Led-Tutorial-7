@@ -68,6 +68,9 @@ prokka --outdir prokka_output --prefix bradyrhizobium --genus Bradyrhizobium --s
 - bradyrhizobium.faa: Predicted proteins.
 3. Push .faa, .gff, .gbz files to GitHub
 ```
+cd prokka_output
+```
+```
 git add bradyrhizobium.gff
 git commit m "General Format File"
 git push
