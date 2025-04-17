@@ -35,7 +35,7 @@ A draft genome of a bacterial species relevant to agriculture, healthcare, or th
 ---
 
 ## **Step-by-Step Tutorial**
-### Fork and clone repository(?)
+### Fork and clone repository!
 ### **Step 1: Install Prokka**
 The HPC server has Prokka pre-installed.
    ```bash
