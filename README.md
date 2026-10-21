@@ -72,7 +72,7 @@ cd prokka_output
 ```
 ```
 git add bradyrhizobium.gff
-git commit m "General Format File"
+git commit -m "General Format File"
 git push
 ```
 ```
