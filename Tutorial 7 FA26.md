@@ -64,9 +64,9 @@ prokka --outdir prokka_output --prefix bradyrhizobium --genus Bradyrhizobium --s
 - --genus and --species: Specify the organism's name.
 2. Key output files in prokka_output/:
 - bradyrhizobium.gff: General feature format file with annotations.
-- bradyrhizobium.gbz: Compressed binary format.
+- bradyrhizobium.gbk: Compressed binary format.
 - bradyrhizobium.faa: Predicted proteins.
-3. Push .faa, .gff, .gbz files to GitHub
+3. Push .faa, .gff, .gbk files to GitHub
 ```
 cd prokka_output
 ```
@@ -76,7 +76,7 @@ git commit -m "General Format File"
 git push
 ```
 ```
-git add bradyrhizobium.gbz
+git add bradyrhizobium.gbk
 git commit -m "Compressed Binary File"
 git push
 ```
@@ -96,7 +96,7 @@ Use KEGG Mapper to map annotated genes to metabolic pathways:
 
 ### **Step 5: Visualization Using IGV**
 1. Navigate to IGV (https://igv.org/app/)
-- Genome --> Local File and upload .gbz file
+- Genome --> Local File and upload .gbk file
 - Tracks --> Local File and upload .gff file (see names of genes)
 - Explore coding regions, functional annotations, and structural features.
 
