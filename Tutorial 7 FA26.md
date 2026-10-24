@@ -38,7 +38,9 @@ A draft genome of a bacterial species relevant to agriculture, healthcare, or th
 ### Fork and clone repository!
 ### **Ready to Run Analysis**
 Request computer resource
-   `interact -t 3:00:00 --ntasks-per-node=16 --mem=30G`
+   ```bash
+   interact -t 3:00:00 --ntasks-per-node=16 --mem=30G
+```
 ### **Step 1: Install Prokka**
 The HPC server has Prokka pre-installed.
    ```bash
