@@ -36,6 +36,13 @@ A draft genome of a bacterial species relevant to agriculture, healthcare, or th
 
 ## **Step-by-Step Tutorial**
 ### Fork and clone repository!
+1. Open GitHub repository
+2. Click "Fork"
+3. Create a Fork under your GitHub account
+4. Open the fork and click the green "Code" button
+5. Copy the HTTPS repository URL
+6. Paste it into the HPC 
+
 ### **Ready to Run Analysis**
 Request computer resource
    ```bash
