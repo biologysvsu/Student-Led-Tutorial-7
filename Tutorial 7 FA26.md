@@ -41,7 +41,7 @@ A draft genome of a bacterial species relevant to agriculture, healthcare, or th
 3. Create a Fork under your GitHub account
 4. Open the fork and click the green "Code" button
 5. Copy the HTTPS repository URL
-6. Paste it into the HPC 
+6. Paste it into the HPC: git clone ***Link***
 
 ### **Ready to Run Analysis**
 Request computer resource
