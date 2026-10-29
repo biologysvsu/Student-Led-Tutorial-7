@@ -35,13 +35,6 @@ A draft genome of a bacterial species relevant to agriculture, healthcare, or th
 ---
 
 ## **Step-by-Step Tutorial**
-### Fork and clone repository!
-1. Open GitHub repository
-2. Click "Fork"
-3. Create a Fork under your GitHub account
-4. Open the fork and click the green "Code" button
-5. Copy the HTTPS repository URL
-6. Paste it into the HPC: git clone ***Link***
 
 ### **Ready to Run Analysis**
 Request computer resource
@@ -78,25 +71,9 @@ prokka --outdir prokka_output --prefix bradyrhizobium --genus Bradyrhizobium --s
 - bradyrhizobium.gff: General feature format file with annotations.
 - bradyrhizobium.gbk: Compressed binary format.
 - bradyrhizobium.faa: Predicted proteins.
-3. Push .faa, .gff, .gbk files to GitHub
-```
-cd prokka_output
-```
-```
-git add bradyrhizobium.gff
-git commit -m "General Format File"
-git push
-```
-```
-git add bradyrhizobium.gbk
-git commit -m "Compressed Binary File"
-git push
-```
-```
-git add bradyrhizobium.faa
-git commit -m "Predicted Proteins File"
-git push
-```
+3. Navigate to On-Demand. Go to your prokke_output file and look for the following files:
+- .faa, .gff, .gbk files to GitHub
+4. Download the 3 files to your computer. 
 
 ### **Step 4: Validate Annotations**
 2. Check for functional annotations:
