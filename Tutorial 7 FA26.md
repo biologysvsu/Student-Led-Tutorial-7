@@ -71,7 +71,7 @@ prokka --outdir prokka_output --prefix bradyrhizobium --genus Bradyrhizobium --s
 - bradyrhizobium.gff: General feature format file with annotations.
 - bradyrhizobium.gbk: Compressed binary format.
 - bradyrhizobium.faa: Predicted proteins.
-3. Navigate to On-Demand. Go to your prokke_output file and look for the following files:
+3. Navigate to On-Demand. Go to your prokka_output file and look for the following files:
 - .faa, .gff, .gbk files to GitHub
 4. Download the 3 files to your computer. 
 
